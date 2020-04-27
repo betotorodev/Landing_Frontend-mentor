@@ -2,3 +2,4 @@
 *.pug
 .DS_Store
 prepros.config
+*.md
