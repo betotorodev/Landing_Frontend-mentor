@@ -1,10 +1,29 @@
+-var titulos = ["Buils The Comunity Your Fans Will love"]
+
+-var description = ["Huddle re-imagines the way we build communities. You have a voice, but so does your audiencies. Create connections with your users as you engage in genuine discussion."]
+
 <!DOCTYPE html>
 html(lang="en")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="https://fonts.google.com/specimen/Poppins")
+    link(rel="stylesheet", href="https://fonts.google.com/specimen/Open+Sans")
     link(rel="stylesheet", href="../css/main.css")
     title Document
   body
     header.header
+      .container
+        img(class="container__image" src="../images/logo.svg", alt="")
+        button Try it Free
+    section.hero
+      img(src="../images/bg-hero-desktop.svg", alt="")
+      .hero__description
+        div.hero--text
+          h1 #{titulos[0]}
+          p #{description[0]}
+          button.modifier Get Started For Free
+        div.hero--image
+          img(src="../images/illustration-mockups.svg", alt="")
+
       
