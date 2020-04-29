@@ -1,6 +1,6 @@
--var titulos = ["Buils The Comunity Your Fans Will love"]
+-var titulos = ["Buils The Comunity Your Fans Will love", "Grow Together", "Flowing Conversations", "Your Users"]
 
--var description = ["Huddle re-imagines the way we build communities. You have a voice, but so does your audiencies. Create connections with your users as you engage in genuine discussion."]
+-var description = ["Huddle re-imagines the way we build communities. You have a voice, but so does your audiencies. Create connections with your users as you engage in genuine discussion.", "Generate meaningful discussions with your audience and build a strong, loyal community. Think og th insightful conversations you miss out on with a feedback form.", "You wouldn't paginate a conversation in real it online? Our threads have just-in-time loadir natural flow.", "It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately."]
 
 <!DOCTYPE html>
 html(lang="en")
@@ -25,5 +25,54 @@ html(lang="en")
           button.modifier Get Started For Free
         div.hero--image
           img(src="../images/illustration-mockups.svg", alt="")
-
-      
+    article.main
+      .main__card
+        .main__text
+          div
+            h3 #{titulos[1]}
+            p #{description[1]}
+        .main__img
+          img(src="../images/illustration-grow-together.svg", alt="")
+      .main__card
+        .main__img
+          img(src="../images/illustration-flowing-conversation.svg", alt="")
+        .main__text
+          div
+            h3 #{titulos[2]}
+            p #{description[2]}
+      .main__card
+        .main__text
+          div
+            h3 #{titulos[3]}
+            p #{description[3]}
+        .main__img
+          img(src="../images/illustration-your-users.svg", alt="")
+    footer.footer
+      .footer_container
+        .footer__logo
+          img(src="../images/logo-white.svg", alt="")
+        .footer__wraper
+          .footer__grid1
+            div
+              img(src="", alt="")
+              p
+            div
+              img(src="", alt="")
+              a(href="")
+            div
+              img(src="", alt="")
+              a(href="")
+          .footer__grid2
+            a(href="")
+            a(href="")
+            a(href="")
+          .footer__grid3
+            a(href="")
+            a(href="")
+            a(href="")
+          .footer__grid4
+            img(src="", alt="")
+            img(src="", alt="")
+            img(src="", alt="")
+        .footer__copyright
+          a(href="")

@@ -1,5 +1,5 @@
-*.scss
 *.pug
+*.scss
 .DS_Store
 prepros.config
 *.md
