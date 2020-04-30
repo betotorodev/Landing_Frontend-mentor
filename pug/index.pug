@@ -2,6 +2,8 @@
 
 -var description = ["Huddle re-imagines the way we build communities. You have a voice, but so does your audiencies. Create connections with your users as you engage in genuine discussion.", "Generate meaningful discussions with your audience and build a strong, loyal community. Think og th insightful conversations you miss out on with a feedback form.", "You wouldn't paginate a conversation in real it online? Our threads have just-in-time loadir natural flow.", "It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately."]
 
+-var footer = ["About us", "What We Do", "FAQ", "Career", "Blog", "Contact Us"]
+
 <!DOCTYPE html>
 html(lang="en")
   head
@@ -10,6 +12,7 @@ html(lang="en")
     link(rel="stylesheet", href="https://fonts.google.com/specimen/Poppins")
     link(rel="stylesheet", href="https://fonts.google.com/specimen/Open+Sans")
     link(rel="stylesheet", href="../css/main.css")
+    link(rel="stylesheet", href="./style.css")
     title Document
   body
     header.header
@@ -50,29 +53,30 @@ html(lang="en")
     footer.footer
       .footer_container
         .footer__logo
-          img(src="../images/logo-white.svg", alt="")
+          img(src="./images/logo-white.svg", alt="")
         .footer__wraper
           .footer__grid1
-            div
-              img(src="", alt="")
-              p
-            div
-              img(src="", alt="")
-              a(href="")
-            div
-              img(src="", alt="")
-              a(href="")
+            div.footer__grid1--data
+              img(src="./images/icon-location.svg", alt="")
+              p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nihil explicabo earum magni id aliquam fugiat blanditiis.
+            div.footer__grid1--data
+              img(src="./images/icon-phone.svg", alt="")
+              a(href="#") +1-543-123-4567
+            div.footer__grid1--data
+              img(src="./images/icon-email.svg", alt="")
+              a(href="") example@huddle.com
           .footer__grid2
-            a(href="")
-            a(href="")
-            a(href="")
+            a(href="#") #{footer[0]}
+            a(href="#") #{footer[1]}
+            a(href="#") #{footer[2]}
           .footer__grid3
-            a(href="")
-            a(href="")
-            a(href="")
+            a(href="#") #{footer[3]}
+            a(href="#") #{footer[4]}
+            a(href="#") #{footer[5]}
           .footer__grid4
-            img(src="", alt="")
-            img(src="", alt="")
-            img(src="", alt="")
+            i(class="icon-facebook",): a(href="#")
+            i(class="icon-twitter"): a(href="#")
+            i(class="icon-instagram"): a(href="#")
         .footer__copyright
-          a(href="")
+          img(src="./images/copyright.svg", alt="")
+          a(href="") Copyright 2018 Huddle. All rights reserved.
